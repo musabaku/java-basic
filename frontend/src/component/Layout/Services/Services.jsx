@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Services.css';
+import Aboutpic from "../../../images/Services/Service.JPG";
+
 import {
   RiHome2Fill,
   RiBuilding2Fill,
@@ -38,6 +40,9 @@ const servicesData = [
 const Services = () => {
   return (
     <div>
+      <span className="about-intro">
+          <img src={Aboutpic} alt="About" className="about-image" />
+        </span>
       <div className="services">
         <h2>Our Services</h2>
         <div className="services-container">

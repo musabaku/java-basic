@@ -1,9 +1,12 @@
 import React from 'react';
 import "./TC.css"
+import tcpic from "../../../images/TC/tcpic.JPG";
 
 const TC = () => {
   return(
 <div className="tc">
+<img src={tcpic} alt="About" className="about-image" />
+
 <h1>Turkish Citizenship: A Guide to Obtaining It by Real Estate and Investment</h1>
 
 <p>The Turkish government has made changes to the citizenship rules, making it easier for foreign investors to obtain Turkish citizenship by investment or real estate. In this article, we'll take a look at the different ways to obtain Turkish citizenship and the advantages it offers.</p>

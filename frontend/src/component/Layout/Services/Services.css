@@ -4,8 +4,16 @@
   display: flex;
   align-items: center;
 }
-/* Services.css */
 
+.about-image {
+  width: 100vw; 
+  /* border-radius: 8px;  */
+  height: 70vh;
+}
+/* Services.css */
+.buy-property-h1:hover {
+  color: green;
+}
 
 .services {
   text-align: center;
@@ -15,9 +23,7 @@
   background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,43,121,1) 44%, rgba(0,212,255,1) 100%);
   
 }
-.buy-property-h1:hover {
-  color: green;
-}
+
 .services h2 {
   font-size: 2.5rem;
   margin-bottom: 30px;
