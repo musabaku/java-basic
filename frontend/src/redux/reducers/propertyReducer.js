@@ -1,4 +1,6 @@
 import { createReducer } from "@reduxjs/toolkit";
+// import { createReducer } from "@reduxjs/toolkit";
+
 
 export const propertyReducer = createReducer(
   {},
@@ -16,7 +18,7 @@ export const propertyReducer = createReducer(
       state.error = action.payload;
     },
     clearErrors: (state) => {
-      state.error = null;
+      state.error = null; 
     },
   }
 );
