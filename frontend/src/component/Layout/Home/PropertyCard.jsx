@@ -6,13 +6,14 @@ import { BiArea } from 'react-icons/bi';
 import { FaLocationDot } from 'react-icons/fa6';
 import { FaMoneyCheckDollar } from 'react-icons/fa6';
 
-
+import {Link} from "react-router-dom"
 
 const PropertyDetails = ({ property }) => {
   console.log(property)
   return (
     <Fragment>
-       
+            <Link to={`/property/${property._id}`}>
+            
             <div className="popular-property" key={property.name}>
 
               <img src={property.image.url} alt={property.name} />
@@ -50,7 +51,7 @@ const PropertyDetails = ({ property }) => {
 
                 </div>
             </div>
-          
+            </Link>
     </Fragment>
   );
 };

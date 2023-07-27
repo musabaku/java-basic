@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Services.css';
-import Aboutpic from "../../../images/Services/Service.JPG";
+// import Aboutpic from "../../../images/Services/Service.JPG";
 
 import {
   RiHome2Fill,
@@ -40,9 +40,9 @@ const servicesData = [
 const Services = () => {
   return (
     <div>
-      <span className="about-intro">
-          <img src={Aboutpic} alt="About" className="about-image" />
-        </span>
+      {/* <span className="about-intro"> */}
+          {/* <img src={Aboutpic} alt="About" className="about-image" /> */}
+        {/* </span> */}
       <div className="services">
         <h2>Our Services</h2>
         <div className="services-container">
@@ -69,13 +69,13 @@ const Services = () => {
             <Link className="buy-property-h1" to="/services/buyProperty">
               <h3><RiCheckboxCircleFill style={{ marginRight: '10px' , color : 'green' }}/>Buying Property in Turkey: Legal Procedures</h3>
             </Link>
-            <Link className="buy-property-h1" to="/services/buyProperty">
+            <Link className="buy-property-h1" to="/services/propertyManagement">
               <h3><RiCheckboxCircleFill style={{ marginRight: '10px' , color : 'green' }}/>Streamlined Property Management in Turkey: An Overview</h3>
             </Link>
-            <Link className="buy-property-h1" to="/services/buyProperty">
+            <Link className="buy-property-h1" to="/services/resale">
               <h3><RiCheckboxCircleFill style={{ marginRight: '10px' , color : 'green' }}/>Premium Resale Properties in Turkey: Your Ideal Investment</h3>
             </Link>
-            <Link className="buy-property-h1" to="/services/buyProperty">
+            <Link className="buy-property-h1" to="/services/primeProperties">
               <h3><RiCheckboxCircleFill style={{ marginRight: '10px' , color : 'green' }}/>Discover Prime Properties in Turkey: Best Prices Guaranteed</h3>
             </Link>
        

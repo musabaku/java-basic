@@ -3,12 +3,21 @@ import axios from "axios";
 export const getProperty = () => async (dispatch) => {
   try {
     dispatch({ type: "propertyRequest" });
-    console.log("hiii")
     const { data } = await axios.get("/api/v1/property");
-    console.log("b")
   
     dispatch({ type: "propertySuccess", payload: data });
   } catch (error) {
     dispatch({ type: "propertyFail", payload: error.response.data.message });
+  }
+};
+
+export const getPropertyDetails = (id) => async (dispatch) => {
+  try {
+    dispatch({ type: "propertyDetailsRequest" });
+    const { data } = await axios.get(`/api/v1/property/${id}`);
+  console.log(data)
+    dispatch({ type: "propertyDetailsSuccess", payload: data.property });
+  } catch (error) {
+    dispatch({ type: "propertyDetailsFail", payload: error.response.data.message });
   }
 };
