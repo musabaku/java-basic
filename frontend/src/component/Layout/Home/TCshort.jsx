@@ -22,6 +22,12 @@ const TCshort = () => {
             economy.
           </p>
           <button className="btn-ptc">Read More</button>
+
+          <div class="about-design">
+                <div class="sideb-line"></div>
+                <div class="middleb-line"></div>
+                <div class="sideb-line"></div>
+              </div>
         </div>
       </div>
     </div>

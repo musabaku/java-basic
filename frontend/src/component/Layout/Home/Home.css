@@ -1,7 +1,7 @@
 /* Option 1 */
 .main-box {
-  background-color: #410954;
-  background-image: linear-gradient(43deg, #410954 0%, #410954 50%, #fbda61 100%);
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   margin-top: -2px;
   display: flex;
   justify-content: space-between;
@@ -24,13 +24,13 @@
 
 .header-text1 > h1 {
   margin-bottom: 1rem;
-  color: #fbda61;
+  color: #D51730;
   font-size: 3rem;
 }
 
 .header-text1 > p {
   font-size: 1.5rem;
-  color: #E3F25E;
+  color: #D51730;
 }
 
 .header-image1 {
@@ -45,7 +45,13 @@
   border-radius: 50%;
   animation: upDownAnimation 1s ease-in-out infinite alternate;
 }
-
+.big-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
 
 @keyframes upDownAnimation {
   0% {

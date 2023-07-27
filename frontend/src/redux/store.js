@@ -1,11 +1,10 @@
 // store.js
 import { configureStore } from '@reduxjs/toolkit';
-// import propertiesReducer from './reducers/properties';
+import {propertyReducer} from './reducers/propertyReducer';
 
 const store = configureStore({
   reducer: {
-    // properties: propertiesReducer, 
+    properties: propertyReducer, 
   },
 });
-const server = "http://localhost:4000/api/v1"
 export default store;

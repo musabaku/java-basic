@@ -10,15 +10,20 @@ exports.getAllProperty = catchAsyncErrors(async (req, res, next) => {
   });
 });
 
-exports.createProperty = catchAsyncErrors(async (req, res, next) => {
-  req.body.user = req.user.id;
-
-  const property = await Property.create(req.body);
-  res.status(200).json({
-    success: true,
-    property,
-  });
-});
+exports.createProperty = async (req, res, next) => {
+  try {
+    const property = await Property.create(req.body);
+    res.status(201).json({
+      success: true,
+      property,
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: error.message,
+    });
+  }
+};
 
 exports.getPropertyDetails = catchAsyncErrors(async (req, res, next) => {
  

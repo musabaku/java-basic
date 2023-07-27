@@ -7,6 +7,8 @@ import TC from "./component/Layout/TC/TC"
 import BuyProperty from "./component/Layout/Services/BuyProperty"
 import Services from "./component/Layout/Services/Services"
 import About from "./component/About/About"
+import Property from "./component/Property/Property"
+
 
 
 
@@ -20,6 +22,7 @@ export default function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
         <Route path="/services/buyProperty" element={<BuyProperty />} />
+        <Route path="/properties" element={<Property />} />
 
         </Routes>
       <Footer />

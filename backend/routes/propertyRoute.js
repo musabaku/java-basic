@@ -11,7 +11,9 @@ const  isAuthenticated  = require('../middlewares/auth');
 const router = express.Router();
 
 router.route('/property').get(getAllProperty);
-router.route('/admin/property/new').post(isAuthenticated, createProperty);
+// router.route('/admin/property/new').post(isAuthenticated, createProperty);
+
+router.route('/property/new').post(createProperty);
 router
   .route('/admin/property/:id')
   .put(isAuthenticated, updateProperty)

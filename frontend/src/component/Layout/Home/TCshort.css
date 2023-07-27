@@ -12,11 +12,12 @@
   display: flex;
   flex-direction: column;
   background-color: #E6E6E6;
+
   align-items: center;
   
 }
 .container{
-  background-color: #E6E6E6;
+background-color: #E6E6E6;
 height: 72vh;
 }
 .text-image >h2 {
@@ -42,8 +43,17 @@ margin-bottom: 2vmax;
 .btn-ptc{
   border: none;
   background-color: #d51730;
-
+margin-bottom: 3vmax;
   color: white;
   width: 150px;
   height: 40px;
+}
+
+.middleb-line {
+  border-radius: 4px;
+  height: 4px;
+  position: relative;
+  width: 500px;
+  background-color: blue;
+
 }
