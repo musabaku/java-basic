@@ -1,0 +1,13 @@
+.buyproperty-container{
+    width: 80vw;
+  
+    margin: auto
+
+}
+.img1{
+    width: 700px;
+    height: 400px;
+    display: flex;
+
+    margin: auto;
+}

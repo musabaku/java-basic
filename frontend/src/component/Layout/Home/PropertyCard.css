@@ -1,0 +1,99 @@
+.popular-property {
+  margin: 1vmax;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.322);
+  width: 20vmax;
+  transition: all 0.5s;
+/* background-color: #D9DFFF; */
+  background-color: #fbda61;
+
+}
+
+.popular-property > img {
+  height: 16vmax;
+  width: 20vmax;
+}
+.popular-property:hover {
+transform: translateY(-10px);
+}
+
+.property-details {
+  padding: 0.5vmax;
+  display: flex;
+  flex-direction: column;
+  height: 45.5%;
+}
+
+.property-details h3 {
+  font-size: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 0.5vmax;
+  color: rgba(0, 0, 0, 0.74);
+  color: #410954;
+
+}
+
+.property-details span {
+  font-weight: bold;
+  margin: 0.5vmax 0;
+  color: #095422;
+
+}
+
+.property-details p {
+  font-size: 0.8rem;
+  color: rgba(8, 8, 8, 0.822);
+  margin: 0.5vmax 0;
+  color: #a81c12;
+
+}
+
+.property-features {
+  display: flex;
+  justify-content: space-around;
+  background-color: #410954;
+  color: #fbda61;
+  padding: 0 0.5vmax;
+  max-width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+.property-feature {
+  display: flex;
+  flex-direction: column;
+  width: 33.333%;
+  align-items: center;
+  color: #fbda61;
+}
+
+.lne{
+  border-right: 1px solid #ddd;
+
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5vmax;
+  color: #fbda61;
+
+
+}
+
+.icon {
+  margin-right: 0.5vmax;
+  color: #fbda61;
+
+
+}
+
+.feature-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #fbda61;
+
+
+}

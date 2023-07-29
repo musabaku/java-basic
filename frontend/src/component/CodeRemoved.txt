@@ -1,0 +1,40 @@
+const obj = {
+const images = [
+  "https://i.ibb.co/5nrpTm0/big1.jpg",
+  "https://i.ibb.co/XxXMLs3/big2.jpg",
+  "https://i.ibb.co/N2hv2QN/big3.jpg",
+  "https://i.ibb.co/YtwyWkM/big4.jpg",
+  "https://i.ibb.co/N13xKHs/big5.jpg",
+  "https://i.ibb.co/gWHyxcg/big6.jpg",
+  "https://i.ibb.co/PDCmRf8/big7.jpg",
+  "https://i.ibb.co/37CYdbH/big8.jpg"
+];
+
+  name: [
+    "BIG 101 - Luxury Apartments For Sale With Amazing Sea View",
+    "BIG 102 - Spacious Family Home in a Prime Location",
+    "BIG 103 - Modern Condo with Top-notch Amenities",
+    "BIG 104 - Stylish Urban Loft with Panoramic Views",
+    "BIG 105 - Elegant Villa with Private Pool and Garden",
+    "BIG 106 - Contemporary Penthouse with Skyline Views",
+    "BIG 107 - Prestige Flats with Bosphorus Lake Views",
+    "BIG 108 - Huge Penthouse with City Skyline Views",
+
+
+  ],
+  location: [
+    "Avcilar, Istanbul",
+    "Kadikoy, Istanbul",
+    "Besiktas, Istanbul",
+    "Sisli, Istanbul",
+    "Beyoglu, Istanbul",
+    "Uskudar, Istanbul",
+    "Beylikduzu, Istanbul",
+    "Kartal, Istanbul",
+
+  ],
+  price: ["$250,000", "$300,000", "$350,000", "$400,000", "$550,000", "$650,000","$290,000","$590,000"],
+  beds: [4, 3, 2, 5, 3, 4,3],
+  area: [200, 180, 150, 300, 250, 220,300],
+  baths: [3, 2, 2, 4, 2, 3,2],
+};
