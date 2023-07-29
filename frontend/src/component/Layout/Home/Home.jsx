@@ -14,20 +14,20 @@ import turkish from "../../../images/turkciti.JPG";
 
 const data = [
   {
-    image: "https://images.unsplash.com/photo-1593642532400-2682810df593",
+    image: "https://i.ibb.co/5nrpTm0/big1.jpg",
     title: "Top Cities for Profitable Real Estate Investment in Turkey",
   },
   {
-    image: "https://images.unsplash.com/photo-1593642532400-2682810df593",
+    image: "https://i.ibb.co/XxXMLs3/big2.jpg",
     title: "Exploring Turkey’s Booming Real Estate Market",
   },
   {
-    image: "https://images.unsplash.com/photo-1593642532400-2682810df593",
+    image: "https://i.ibb.co/N2hv2QN/big3.jpg",
     title:
       "Impact of Changing Mortgage Interest Rates on Turkey’s Property Market",
   },
   {
-    image: "https://images.unsplash.com/photo-1593642532400-2682810df593",
+    image: "https://i.ibb.co/YtwyWkM/big4.jpg",
     title: "Notaries Take the Lead: A New Era in Real Estate Transactions",
   },
 

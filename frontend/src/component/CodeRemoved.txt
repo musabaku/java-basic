@@ -1,5 +1,15 @@
 const obj = {
-  src: [big1, big2, big3, big4, big5, big6,big7,big8],
+const images = [
+  "https://i.ibb.co/5nrpTm0/big1.jpg",
+  "https://i.ibb.co/XxXMLs3/big2.jpg",
+  "https://i.ibb.co/N2hv2QN/big3.jpg",
+  "https://i.ibb.co/YtwyWkM/big4.jpg",
+  "https://i.ibb.co/N13xKHs/big5.jpg",
+  "https://i.ibb.co/gWHyxcg/big6.jpg",
+  "https://i.ibb.co/PDCmRf8/big7.jpg",
+  "https://i.ibb.co/37CYdbH/big8.jpg"
+];
+
   name: [
     "BIG 101 - Luxury Apartments For Sale With Amazing Sea View",
     "BIG 102 - Spacious Family Home in a Prime Location",
